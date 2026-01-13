@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import mongoose from "mongoose";
 
-const MONGO_URI ="mongodb://localhost:27017/Restaurants"; // stored in .env.local
+const MONGO_URI ="mongodb+srv://swetanksinha19_db_user:WH3mg0LYmyLxyccN@lorato-db.3nbdct9.mongodb.net/Restaurants?retryWrites=true&w=majority"; // stored in .env.local
 
 const restaurantSchema = new mongoose.Schema({
   name: String,

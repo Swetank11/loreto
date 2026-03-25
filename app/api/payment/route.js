@@ -12,6 +12,10 @@ export async function POST(req) {
     receipt: "receipt#1",
   };
 
-  const order = await instance.orders.create(options);
-  return new Response(JSON.stringify(order), { status: 200 });
+  try {
+    const order = await instance.orders.create(options);
+    return new Response(JSON.stringify(order), { status: 200 });
+  } catch (error) {
+    return new Response(JSON.stringify({ error: error.message }), { status: 500 });
+  }
 }

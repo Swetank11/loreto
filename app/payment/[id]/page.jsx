@@ -43,7 +43,7 @@ export default function PaymentPage() {
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID || "rzp_test_example", // Enter the Key ID generated from the Dashboard
         amount: order.amount,
         currency: order.currency,
-        name: "LORETO",
+        name: "GHAR SA",
         description: "Premium Dining Transaction",
         order_id: order.id,
         handler: function (response) {
@@ -114,13 +114,10 @@ export default function PaymentPage() {
           </div>
         </div>
         
-        <p className="text-center text-[10px] text-muted-foreground uppercase tracking-widest leading-relaxed">
-          Secure payment gateway • Encrypted transactions<br/>
-          Loreto Dining Systems Proprietary Technology
+        <p className="text-[10px] text-muted-foreground uppercase tracking-[0.3em] font-black opacity-50 text-center">
+          Ghar Sa Home Kitchens Proprietary Technology
         </p>
       </div>
     </div>
   );
 }
-
-

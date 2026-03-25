@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function LoginPage() {
   const [name, setName] = useState("");
@@ -21,8 +22,8 @@ export default function LoginPage() {
 
       <div className="glass-card p-10 w-full max-w-md z-10">
         <div className="text-center mb-10">
-          <h1 className="text-4xl font-black tracking-tighter text-white mb-2">LORETO</h1>
-          <p className="text-muted-foreground text-sm font-medium uppercase tracking-widest">Premium Dining Experience</p>
+          <h1 className="text-4xl font-black tracking-tighter text-white mb-2">GHAR SA</h1>
+          <p className="text-muted-foreground text-[10px] uppercase tracking-[0.3em] font-bold">Authentic Home Kitchens</p>
         </div>
 
         <form onSubmit={handleSubmit} className="flex flex-col space-y-6">
@@ -46,8 +47,14 @@ export default function LoginPage() {
                 ? "bg-amber-500 text-black hover:bg-amber-400 hover:shadow-[0_0_30px_-5px_rgba(245,158,11,0.5)] cursor-pointer" 
                 : "bg-white/5 text-muted-foreground cursor-not-allowed border border-white/5"}`}
           >
-            Enter Loreto
+            Enter Ghar Sa
           </button>
+
+          <div className="text-center pt-2">
+            <Link href="/signup" className="text-[10px] font-black uppercase tracking-widest text-muted-foreground hover:text-white transition-colors">
+              Don't have an account? Sign Up
+            </Link>
+          </div>
         </form>
       </div>
     </div>

@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function RestaurantList({ restaurants }) {
   return (
-    <div className="flex overflow-x-auto space-x-6 p-4 no-scrollbar pb-8">
+    <div className="flex overflow-x-auto space-x-6 p-4 no-scrollbar pb-8 will-change-transform">
       {Array.isArray(restaurants) && restaurants.map((r) => (
         <Link key={r._id} href={`/payment/${r._id}`} className="block">
           <div className="glass-card min-w-[280px] w-[280px] p-0 overflow-hidden group">

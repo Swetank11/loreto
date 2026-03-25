@@ -25,7 +25,7 @@ export default function ClientHome() {
   return (
     <div className="px-6 space-y-12">
       {/* Featured Section */}
-      <section>
+      <section style={{ contentVisibility: 'auto', containIntrinsicSize: '0 400px' }}>
         <div className="flex justify-between items-end mb-6">
           <h2 className="text-4xl font-black tracking-tightest uppercase">Available Now</h2>
           <p className="text-muted-foreground text-xs font-bold uppercase tracking-widest border-b border-amber-500/50 pb-1">See All</p>
@@ -39,7 +39,7 @@ export default function ClientHome() {
       </section>
 
       {/* Quick Categories */}
-      <section>
+      <section style={{ contentVisibility: 'auto', containIntrinsicSize: '0 300px' }}>
         <h2 className="text-xs font-black uppercase tracking-[0.3em] text-muted-foreground mb-8 text-center">Quick Categories</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {/* Card 1 */}

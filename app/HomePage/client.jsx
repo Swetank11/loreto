@@ -45,7 +45,7 @@ export default function ClientHome() {
           {/* Card 1 */}
           <div className="glass-card group flex flex-col items-center justify-center p-8 relative overflow-hidden h-48 cursor-pointer border-white/5 hover:border-amber-500/30">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60 z-10" />
-            <img src="Delivery-Scooter.png" alt="Delivery" className="w-24 h-24 object-contain z-20 group-hover:scale-110 transition-transform duration-500" />
+            <img src="Delivery-Scooter.png" alt="Delivery Scooter" className="w-24 h-24 object-contain z-20 group-hover:scale-110 transition-transform duration-500" />
             <span className="relative z-30 mt-4 text-[10px] font-black uppercase tracking-widest bg-amber-500 text-black px-3 py-1 rounded">
               Super Fast
             </span>
@@ -57,7 +57,7 @@ export default function ClientHome() {
           {/* Card 2 */}
           <div className="glass-card group flex flex-col items-center justify-center p-8 relative overflow-hidden h-48 cursor-pointer border-white/5 hover:border-amber-500/30">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60 z-10" />
-            <img src="plate.png" className="w-24 h-24 object-contain z-20 group-hover:scale-110 transition-transform duration-500" />
+            <img src="plate.png" alt="Budget Plate" className="w-24 h-24 object-contain z-20 group-hover:scale-110 transition-transform duration-500" />
             <span className="relative z-30 mt-4 text-[10px] font-black uppercase tracking-widest bg-white text-black px-3 py-1 rounded">
               Budget Friendly
             </span>
@@ -69,7 +69,7 @@ export default function ClientHome() {
           {/* Card 3 */}
           <div className="glass-card group flex flex-col items-center justify-center p-8 relative overflow-hidden h-48 cursor-pointer border-white/5 hover:border-amber-500/30">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60 z-10" />
-            <img src="dining.png" className="w-24 h-24 object-contain z-20 group-hover:scale-110 transition-transform duration-500" />
+            <img src="dining.png" alt="Dining Experience" className="w-24 h-24 object-contain z-20 group-hover:scale-110 transition-transform duration-500" />
             <span className="relative z-30 mt-4 text-[10px] font-black uppercase tracking-widest bg-white text-black px-3 py-1 rounded">
               Dine In
             </span>
@@ -81,7 +81,7 @@ export default function ClientHome() {
           {/* Card 4 */}
           <div className="glass-card group flex flex-col items-center justify-center p-8 relative overflow-hidden h-48 cursor-pointer border-white/5 hover:border-amber-500/30">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60 z-10" />
-            <img src="plate.png" className="w-24 h-24 object-contain z-20 group-hover:scale-110 transition-transform duration-500" />
+            <img src="plate.png" alt="Gourmet Plate" className="w-24 h-24 object-contain z-20 group-hover:scale-110 transition-transform duration-500" />
             <span className="relative z-30 mt-4 text-[10px] font-black uppercase tracking-widest bg-white text-black px-3 py-1 rounded">
               Premium Eats
             </span>

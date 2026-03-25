@@ -52,7 +52,7 @@ export default function LoginPage() {
 
           <div className="text-center pt-2">
             <Link href="/signup" className="text-[10px] font-black uppercase tracking-widest text-muted-foreground hover:text-white transition-colors">
-              Don't have an account? Sign Up
+              Don&apos;t have an account? Sign Up
             </Link>
           </div>
         </form>
